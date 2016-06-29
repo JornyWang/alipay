@@ -1,0 +1,11 @@
+{
+  "name": "alipay",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JornyWang/alipay.git"
+  },
+  "dependencies": {
+    "iconv": "^2.2.1"
+  }
+}
