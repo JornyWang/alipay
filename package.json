@@ -1,9 +1,16 @@
 {
   "name": "alipay",
   "version": "0.0.1",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/JornyWang/alipay.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": {
+    "name": "279508122@qq.com"
   },
   "dependencies": {
     "iconv": "^2.2.1"
