@@ -1,18 +1,26 @@
 {
-  "name": "alipay",
+  "name": "alipay.wang",
   "version": "0.0.1",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JornyWang/alipay.git"
+    "url": "git+https://github.com/JornyWang/alipay.git"
   },
   "scripts": {
     "test": "node test.js"
   },
-  "author": {
-    "name": "279508122@qq.com"
-  },
+  "author": "279508122@qq.com",
   "dependencies": {
     "iconv": "^2.2.1"
-  }
+  },
+  "description": "alipay nodejs 支付宝支付 即时到帐",
+  "bugs": {
+    "url": "https://github.com/JornyWang/alipay/issues"
+  },
+  "homepage": "https://github.com/JornyWang/alipay#readme",
+  "devDependencies": {},
+  "keywords": [
+    "alipay"
+  ],
+  "license": "ISC"
 }
