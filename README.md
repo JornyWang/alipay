@@ -8,8 +8,8 @@ npm install alipay.wang
 ```
 var mapi;
 
-mapi = require('../lib/mechant.alipay.server.utils');
-instance = new mapi() //instance = new mapi(config)
+alipay = require('alipay.wang');
+instance = new alipay.mapi() //instance = new alipay.mapi(config)
 var data = {
   extra_common_param: 'test'
   total_fee: '0.01'
@@ -20,7 +20,6 @@ var callback = function(err, result){
   console.log(result);
 };
 instance.get_direct_pay_url({data}, callback)
-
 
 ```
 
