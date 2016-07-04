@@ -5,7 +5,7 @@ alipay nodejs 支付宝支付 即时到帐
 npm install alipay.wang
 
 #即时到账
-｀｀｀
+```
 var mapi;
 
 mapi = require('../lib/mechant.alipay.server.utils');
@@ -21,7 +21,8 @@ var callback = function(err, result){
 };
 instance.get_direct_pay_url({data}, callback)
 
-｀｀｀
+
+```
 
 #其他接口上线中。。
 
