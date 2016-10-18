@@ -1,6 +1,6 @@
 {
   "name": "alipay.wang",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "dependencies": {
     "iconv": "^2.2.1"
   },
-  "description": "alipay nodejs 支付宝支付 即时到帐",
+  "description": "alipay nodejs 支付宝支付 即时到帐 手机网站支付",
   "bugs": {
     "url": "https://github.com/JornyWang/alipay/issues"
   },
